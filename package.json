@@ -1,0 +1,21 @@
+{
+  "name": "lbackend",
+  "version": "1.0.0",
+  "description": "a test app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodenv .",
+    "test": "nodenv -E test/.env test/test.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "uday",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-env-run": "^4.0.2"
+  }
+}
